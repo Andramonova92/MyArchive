@@ -20,18 +20,18 @@ namespace newArchive
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string file = "D:\\1.txt";
-            string rar = "D:\\1.rar";
-            FileInfo f = new FileInfo(file);
-            FileInfo r = new FileInfo(rar);
-            FileStream filerar = null;
+            string file = "D:\\1.txt"; // файл для архивации
+            string rar = "D:\\1.rar"; //файл архива
+          //  FileInfo f = new FileInfo(file);  
+            FileInfo r = new FileInfo(rar); // создаем экземпляр класса FileInfo для использования в потоке filerar
+            FileStream filerar = null; 
             try
             {
-                byte[] array = File.ReadAllBytes(file);
-                MemoryStream memory = new MemoryStream(array);
-                 filerar = r.Create();
+                byte[] array = File.ReadAllBytes(file); // в масив байтов считываем все байты файла для архива
+                MemoryStream memory = new MemoryStream(array); // создаем обьект MemoryStream в который помещаем масив байтов
+                 filerar = r.Create(); // создаем файл архива
                 
-                    memory.CopyTo(filerar);
+                    memory.CopyTo(filerar); // копируем сорержимое мемори в поток
                 
             }
             catch
@@ -41,8 +41,8 @@ namespace newArchive
 
             }
             finally {
-                if (r!= null)
-                    filerar.Close();
+                if (r!= null) // если файл не пустой
+                    filerar.Close(); // закрываем поток
             }
         }
     }
