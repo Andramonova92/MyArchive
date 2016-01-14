@@ -1,0 +1,10 @@
+D:\настя\newArchive\newArchive\bin\Debug\newArchive.exe.config
+D:\настя\newArchive\newArchive\bin\Debug\newArchive.exe
+D:\настя\newArchive\newArchive\bin\Debug\newArchive.pdb
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.csprojResolveAssemblyReference.cache
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.Main_Form.resources
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.Properties.Resources.resources
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.csproj.GenerateResource.Cache
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.exe
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.pdb
+D:\настя\newArchive\newArchive\obj\Debug\newArchive.proba.resources
