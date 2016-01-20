@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace newArchive.Properties
+namespace ArchiveProject.Properties
 {
 
 

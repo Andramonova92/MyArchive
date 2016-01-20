@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace newArchive
+namespace ArchiveProject
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace newArchive
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new proba());
+            Application.Run(new MainForm());
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace newArchive
+﻿namespace ArchiveProject
 {
-    partial class Main_Form
+    partial class MainForm
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -29,32 +29,26 @@
         private void InitializeComponent()
         {
             this.create_archive = new System.Windows.Forms.Button();
-            this.saveFile = new System.Windows.Forms.SaveFileDialog();
-            this.choseFile = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // create_archive
             // 
-            this.create_archive.Location = new System.Drawing.Point(205, 146);
+            this.create_archive.Location = new System.Drawing.Point(101, 97);
             this.create_archive.Name = "create_archive";
             this.create_archive.Size = new System.Drawing.Size(75, 23);
             this.create_archive.TabIndex = 0;
-            this.create_archive.Text = "архивация";
+            this.create_archive.Text = "Архивация";
             this.create_archive.UseVisualStyleBackColor = true;
             this.create_archive.Click += new System.EventHandler(this.create_archive_Click);
             // 
-            // choseFile
-            // 
-            this.choseFile.FileName = "choseFie";
-            // 
-            // Main_Form
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 403);
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.create_archive);
-            this.Name = "Main_Form";
-            this.Text = "Main_Form";
+            this.Name = "MainForm";
+            this.Text = "MainForm";
             this.ResumeLayout(false);
 
         }
@@ -62,8 +56,6 @@
         #endregion
 
         private System.Windows.Forms.Button create_archive;
-        private System.Windows.Forms.SaveFileDialog saveFile;
-        private System.Windows.Forms.OpenFileDialog choseFile;
     }
 }
 
